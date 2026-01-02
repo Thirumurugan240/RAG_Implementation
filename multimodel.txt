@@ -1,0 +1,15 @@
+Common inputs you can support (by converting to text + metadata):
+
+Text: .txt, .md, .html
+
+PDF: normal text-PDF + scanned PDFs (via page-to-image + vision/OCR)
+
+Images: .png, .jpg/.jpeg, .webp, .gif (non-animated) 
+
+Word / PPT: .docx, .pptx (extract text)
+
+Tables: .csv, .xlsx (convert rows to text chunks)
+
+Audio: .mp3/.wav/.m4a (transcribe → index transcript)
+
+Video: transcript + keyframes (frame captions) (OpenAI cookbook shows a vision + frames approach)
